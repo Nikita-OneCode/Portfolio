@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico/man_kjkczbl4yg5q.svg" type="image/x-icon">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/site.css">
 </head>
@@ -13,7 +14,7 @@
                 <div class="header__logo">Portfolio</div>
                 <nav class="nav">
                     <a class="nav__link" href="#">Обо мне</a>
-                    <a class="nav__link" href="#">Мои проекты</a>
+                    <a class="nav__link" href="#work">Мои проекты</a>
                     <a class="nav__link" href="#">Контакты</a>
                 </nav>
             </div>
@@ -25,7 +26,7 @@
             <div class="intro__inner">
                 <div class="intro__item">
                     <p class="intro__text">Здравствуйте! <br>Меня зовут Никита и я веб-разработчик</p>
-                    <a class="btn__intro" href="#">Смотреть мои проекты</a>
+                    <a class="btn__intro" href="#work">Смотреть мои проекты</a>
                 </div>
                 <img class="intro__logo" src="images/hero-img.svg" alt="imtro-logo">
             </div>
@@ -43,7 +44,7 @@
         </div>
     </section>
 
-    <section class="project">
+    <section id="work" class="project">
         <div class="container">
             <h2 class="project__h2">Проекты</h2>
             <div class="project__inner">
@@ -52,13 +53,30 @@
                         <div class="project__menu-cotainer">
                         <div class="project__item-menu">
                             <div class="menu__name">Место для вашего сайта</div>
-                            <a class="btn__menu" href="#">Связаться</a>
+                            <a class="btn__menu" href="https://t.me/Darliving_support">Связаться</a>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+        <h2 class="contacts__h2">Контакты</h2>
+        <div class="contacts__inner">
+            <form id="conatacts-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name"
+                name="name" required>
+                <label for="emaile">Email:</label>
+                <input type="email" id="email" name="email" required >
+                <label for="massage">Сообщение</label> 
+                <textarea id="massage" name="massage" required></textarea>
+                <button id="submit" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
     </section>
     <footer class="footer">
         <div class="container">
