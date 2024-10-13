@@ -206,6 +206,9 @@ h1,h2,h3,h4,h5,h6 {
     height: 35vh;
     background-color: #1E293B;
     margin-bottom: 20px;
+    @media(max-width:500px) {
+        height: 40vh;
+    }
 }
 .contacts__h2 {
     display: inline-block;
