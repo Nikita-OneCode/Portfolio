@@ -103,19 +103,11 @@ h1,h2,h3,h4,h5,h6 {
 .about {
     width: 100%;
     margin-top: 40px;
-    height: 40vh;
+    height: 35vh;
     background-color: #1E293B;
     margin-bottom: 30px;
-
-    @media(max-width:800px) {
-        height:60vh;
-        .about__text {
-            font-size: 23px;
-        }
-        
-    }
     @media(max-width:500px) {
-        height: 90vh;
+        height: 70vh;
     }
 }
 .about__h2 {
@@ -207,7 +199,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #1E293B;
     margin-bottom: 20px;
     @media(max-width:500px) {
-        height: 40vh;
+        height: 35vh;
     }
 }
 .contacts__h2 {
@@ -228,6 +220,8 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     justify-content: center;
 }
+
+/* Contacts-form */
 #conatacts-form {
     width: 200px;
     margin-top: 20px;
@@ -276,4 +270,5 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer__logo {
     font-size: 35px;
+    color: #7477FF;
 }
